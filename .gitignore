@@ -1,5 +1,8 @@
+@"
 venv/
+.venv/
 __pycache__/
 *.pyc
 .env
-node_modules/
+.streamlit/secrets.toml
+"@ | Set-Content .gitignore
